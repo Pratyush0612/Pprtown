@@ -3,12 +3,14 @@
 
 :root{
    --peru:#999692;
-   --black:rgb(153, 142, 142);
+   /* --black:rgb(153, 142, 142); */
+   --black:rgba(224, 105, 155, 0.76);
    --white:rgba(238, 220, 220, 0.966);
    --light-black: rgb(231, 14, 14);
    --light-white:rgb(66, 61, 61);
    --light-bg:#585050;
-   --dark-bg:rgba(129, 127, 127, 0.7);
+   --lght:rgb(231,21,12);
+   --dark-bg:rgba(104, 98, 101, 0.7);
    --border:.1rem solid hsl(0, 84%, 52%);
    --box-shadow:0 .8rem 1rem rgba(36, 32, 32, 0.1);
 }
@@ -75,7 +77,7 @@ section{
    margin-top: 1rem;
    display: inline-block;
    background: var(--peru);
-   color:var(--white);
+   color:var(--lght);
    font-size: 2rem;
    cursor: pointer;
    padding:1rem 3rem;
@@ -83,6 +85,8 @@ section{
 
 .btn:hover{
    letter-spacing: .2rem;
+   color: black;
+   background-color: rgb(172, 126, 146);
 }
 
 .header{
@@ -112,11 +116,11 @@ section{
 .header .navbar a{
    font-size: 2rem;
    margin-left: 2rem;
-   color:rgb(233, 70, 70);
+   color:rgb(17, 2, 2);
 }
 
 .header .navbar a:hover{
-   color:black;
+   color:rgb(199, 25, 25);
 }
 
 #menu-btn{
@@ -176,7 +180,7 @@ section{
 .home .slide .content h3{
    font-size: 8vw;
    text-transform: uppercase;
-   color:var(--white);
+   color:var(--black);
    text-shadow: 0 .5rem 1rem rgba(0,0,0,.7);
    line-height: 1;
    padding:2rem 0;
